@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Zemoso Restaurant </title>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        $(function() {
+            var me = [
+			{
+			"a": {
+			"name": "Abra",
+			"age": 125,
+			"company": "Dabra"
+			},
+			"b": {
+			"name": "Tudak tudak",
+			"age": 228,
+			"company": "Dhidak dhidak"
+			}
+			}
+            
+];
+
+
+            });
+
+    </script>
+</head>
+<body>
+<ul></ul>
+    <button>Users</button>
+     <div class="col-md-3 col-sm-4 col-xs-4" style="color:red">
+         hi
+     </div>
+     <div class="col-md-3 col-sm-4 col-xs-4" style="color:blue">
+         hi
+     </div>
+     <div class="col-md-3 col-sm-4 col-xs-4" style="color:black">
+         hi
+     </div>
+     <div class="col-md-3 col-sm-4 col-xs-4" style="color:green">
+        {{me}}
+     </div>
+<script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
+
